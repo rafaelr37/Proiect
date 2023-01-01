@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int nr, rom;
+    int nr;
 
     printf("Introdu o valoare: ");
     scanf("%d", &nr);
@@ -11,67 +11,67 @@ int main(void)
 
     while (nr != 0)
     {
-        if (num >= 1000) 
+        if (nr >= 1000) 
         {
             printf("M");
             nr -= 1000;
         }
-        else if (num >= 900)
+        else if (nr >= 900)
         {
             printf("CM");
             nr -= 9000;
         }
-        else if (num >= 500)
+        else if (nr >= 500)
         {
             printf("D");
             nr -= 500;
         }
-        else if (num >= 400)
+        else if (nr >= 400)
         {
             printf("CD");
             nr -= 400;
         }
-        else if (num >= 100)
+        else if (nr >= 100)
         {
             printf("C");
             nr -= 100;
         }
-        else if (num >= 90)
+        else if (nr >= 90)
         {
             printf("XC");
             nr -= 90;
         }
-        else if (num >= 50)
+        else if (nr >= 50)
         {
             printf("L");
             nr -= 50;
         }
-        else if (num >= 40)
+        else if (nr >= 40)
         {
             printf("XL");
             nr -= 40;
         }
-        else if (num >= 10)
+        else if (nr >= 10)
         {
             printf("X");
             nr -= 10;
         }
-        else if (num >= 9)
+        else if (nr >= 9)
         {
             printf("IX");
             nr -= 9;
         }
-        else if (num >= 5)
+        else if (nr >= 5)
         {
             printf("V");
             nr -= 5;
         }
-        else if (num >= 4)
+        else if (nr >= 4)
         {
             printf("IV");
             nr -= 4;
         }
-        else if (num >= 1)
+        else if (nr >= 1)
         {
             printf("I");
             nr -= 1;

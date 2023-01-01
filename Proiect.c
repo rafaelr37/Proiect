@@ -26,7 +26,26 @@ int main(void)
             printf("D");
             nr -= 500;
         }
-
+        else if (num >= 400)
+        {
+            printf("CD");
+            nr -= 400;
+        }
+        else if (num >= 100)
+        {
+            printf("C");
+            nr -= 100;
+        }
+        else if (num >= 90)
+        {
+            printf("XC");
+            nr -= 90;
+        }
+        else if (num >= 50)
+        {
+            printf("L");
+            nr -= 50;
+        }
 
 
     }

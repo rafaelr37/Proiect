@@ -46,7 +46,36 @@ int main(void)
             printf("L");
             nr -= 50;
         }
-
+        else if (num >= 40)
+        {
+            printf("XL");
+            nr -= 40;
+        }
+        else if (num >= 10)
+        {
+            printf("X");
+            nr -= 10;
+        }
+        else if (num >= 9)
+        {
+            printf("IX");
+            nr -= 9;
+        }
+        else if (num >= 5)
+        {
+            printf("V");
+            nr -= 5;
+        }
+        else if (num >= 4)
+        {
+            printf("IV");
+            nr -= 4;
+        }
+        else if (num >= 1)
+        {
+            printf("I");
+            nr -= 1;
+        }
 
     }
 

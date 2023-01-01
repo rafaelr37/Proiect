@@ -19,7 +19,7 @@ int main(void)
         else if (nr >= 900)
         {
             printf("CM");
-            nr -= 9000;
+            nr -= 900;
         }
         else if (nr >= 500)
         {

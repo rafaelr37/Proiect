@@ -14,8 +14,19 @@ int main(void)
         if (num >= 1000) 
         {
             printf("M");
-            num -= 1000;
+            nr -= 1000;
         }
+        else if (num >= 900)
+        {
+            printf("CM");
+            nr -= 9000;
+        }
+        else if (num >= 500)
+        {
+            printf("D");
+            nr -= 500;
+        }
+
 
 
     }

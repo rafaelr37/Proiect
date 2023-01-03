@@ -4,10 +4,10 @@ int main(void)
 {
     int nr;
 
-    printf("Introdu o valoare: ");
+    printf("Introdu o valoare: \n");
     scanf("%d", &nr);
 
-    printf("In cifre romane: : ");
+    printf("In cifre romane: : \n");
 
     while (nr != 0)
     {
